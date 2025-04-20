@@ -24,6 +24,15 @@ public class Tester {
 		customer1.display();
 
 		//Repeat the same for second object
+		Customer customer2 = new Customer();
+		System.out.println("Enter Name of Customer : ");
+		customer2.setCustName(sc.nextLine());
+		System.out.println("Enter Customer ID: ");
+		customer2.setCustId(sc.nextInt());
+		System.out.println("Enter Customer Age: ");
+		customer2.setCustAge(sc.nextInt());
+
+		customer2.display();
 
 		sc.close();
 
