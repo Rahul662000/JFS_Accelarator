@@ -1,6 +1,7 @@
 package com.accenture.lkm;
 
-public class Customer{
+public class Customer {
+
     
     private int custId;
     private String custName; 
