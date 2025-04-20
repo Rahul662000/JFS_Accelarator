@@ -9,12 +9,14 @@ public class Tester {
 		System.out.println(Thread.currentThread().getName());
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Welcome TO program");
 		// Creating object of Customer class
 		Customer customer1 = new Customer();
 
 		// Setting values to the properties
 		System.out.println("Enter Name of Customer : ");
-		customer1.setCustName(sc.nextLine());
+		String Name = sc.nextLine();
+		customer1.setCustName(Name);
 		System.out.println("Enter Customer ID: ");
 		customer1.setCustId(sc.nextInt());
 		System.out.println("Enter Customer Age: ");
